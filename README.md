@@ -108,21 +108,21 @@ Semua error mengembalikan objek JSON dengan kode `status` dan `message` yang men
 
 Ambil quotes populer tanpa parameter:
 ```http
-GET https://jagokata-api.vercel.api/popular
+GET https://jagokata-api.vercel.app/popular
 ```
 
 ### Contoh 2: Mencari Quotes
 
 Cari kutipan dengan kata kunci tertentu:
 ```http
-GET https://jagokata-api.vercel.api/search?q=kehidupan
+GET https://jagokata-api.vercel.app/search?q=kehidupan
 ```
 
 ### Contoh 3: Mencari Quotes Berdasarkan Tokoh
 
 Ambil semua quotes dari tokoh dengan nama inisial tertentu:
 ```http
-GET https://jagokata-api.vercel.api/tokoh?huruf=A
+GET https://jagokata-api.vercel.app/tokoh?huruf=A
 ```
 
 ### Catatan
