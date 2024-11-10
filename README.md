@@ -151,4 +151,3 @@ Data yang disediakan oleh API ini diperoleh dari situs [JagoKata](https://jagoka
 
 
 [⬆️ Kembali ke Atas](#jagokata-rest-api)
-```
