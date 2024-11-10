@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-require "../simple_html_dom.php";
+require "simple_html_dom.php";
 
 $web = "https://jagokata.com/";
 $url = $web . "kata-bijak/popular.html";
