@@ -53,8 +53,8 @@ JagoKata REST API adalah API yang memberikan akses terstruktur ke data kutipan, 
 3. Atur server kamu untuk menyajikan file PHP (misal: Apache atau Nginx).
 
 4. Atau, kamu bisa langsung deploy ke Vercel<br>
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F&redirect-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F)
-  Jangan lupa untuk ubah runtime menjadi `Node.js 18.x`
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F&redirect-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F)<br>
+⚠️ Jangan lupa untuk ubah runtime menjadi `Node.js 18.x`
 
 ## ❇️ Referensi
 
