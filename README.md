@@ -59,17 +59,17 @@ JagoKata REST API adalah API yang memberikan akses terstruktur ke data kutipan, 
 ## ❇️ Referensi
 
 ### Endpoints
-Base URL: https://jagokata-api.vercel.app
+Base URL: https://jagokata-api.rf.gd
 
-| Endpoint                | Deskripsi                                     | Parameter |
-| :---------------------- | :-------------------------------------------- | :-------: |
-| `GET /popular`          | Mendapatkan quotes populer                    |   `page`  |
-| `GET /acak`             | Mendapatkan quotes secara acak                |   `page`  |
-| `GET /search`           | Mencari quotes                                |`q`, `page`|
-| `GET /tokoh`            | Mencari quotes dari huruf inisial             | `huruf`   |
-| `GET /author`           | Mendapatkan semua quotes dari seorang author  |`name`, `page`|
-| `GET /peribahasa`       | Mendapatkan peribahasa dari kata              |  `kata`   |
-| `GET /peribahasa-acak`  | Mendapatkan 10 peribahasa secara acak         |           |
+| Endpoint                  | Deskripsi                                     | Parameter |
+| :------------------------ | :-------------------------------------------- | :-------: |
+| `GET /popular.php`        | Mendapatkan quotes populer                    |   `page`  |
+| `GET /acak.php`           | Mendapatkan quotes secara acak                |   `page`  |
+| `GET /search.php`         | Mencari quotes                                |`q`, `page`|
+| `GET /tokoh.php`          | Mencari quotes dari huruf inisial             | `huruf`   |
+| `GET /author.php`         | Mendapatkan semua quotes dari seorang author  |`name`, `page`|
+| `GET /peribahasa.php`     | Mendapatkan peribahasa dari kata              |  `kata`   |
+| `GET /peribahasa-acak.php`| Mendapatkan 10 peribahasa secara acak         |           |
 
 ### Parameter Request
 | Parameter | Deskripsi                            |
@@ -109,21 +109,21 @@ Semua error mengembalikan objek JSON dengan kode `status` dan `message` yang men
 
 Ambil quotes populer tanpa parameter:
 ```http
-GET https://jagokata-api.vercel.app/popular
+GET https://jagokata-api.rf.gd/popular.php
 ```
 
 ### Contoh 2: Mencari Quotes
 
 Cari kutipan dengan kata kunci tertentu:
 ```http
-GET https://jagokata-api.vercel.app/search?q=kehidupan
+GET https://jagokata-api.rf.gd/search.php?q=kehidupan
 ```
 
 ### Contoh 3: Mencari Quotes Berdasarkan Tokoh
 
 Ambil semua quotes dari tokoh dengan nama inisial tertentu:
 ```http
-GET https://jagokata-api.vercel.app/tokoh?huruf=A
+GET https://jagokata-api.rf.gd/tokoh.php?huruf=A
 ```
 
 ### Catatan
