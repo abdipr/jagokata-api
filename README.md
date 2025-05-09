@@ -56,6 +56,10 @@ JagoKata REST API adalah API yang memberikan akses terstruktur ke data kutipan, 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F&redirect-url=https%3A%2F%2Fgithub.com%2Fabdipr%2Fjagokata-api%2F)<br>
 ⚠️ Jangan lupa untuk ubah runtime menjadi `Node.js 18.x`
 
+### ⚠️ Migrasi API
+Request di JagoKata API yang di-host di Vercel telah mencapai limit akun free, jadi silakan ubah base URL ke https://jagokata-api.rf.gd.<br>Terima kasih atas perhatiannya<br>
+<img src="https://i.ibb.co.com/Rkvf5PxK/Screenshot-2025-05-09-080643.png" alt="Screenshot-2025-05-09-080643" border="0">
+
 ## ❇️ Referensi
 
 ### Endpoints
